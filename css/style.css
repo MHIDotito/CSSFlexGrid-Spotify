@@ -57,4 +57,53 @@ flex-shrink: 0;
     margin-right: 0.5rem;
     flex-shrink: 0;
 
+}¨
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.bar__track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bar__player {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.player-progress {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.player-progress__line {
+    flex-grow: 1;
+}
+
+.bar__controls {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5rem;
 }
